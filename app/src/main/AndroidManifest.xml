@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.buahapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".BagikanActivity"/>
+        <activity android:name=".BelajarAngkaActivity" />
+        <activity android:name=".BelajarHewanActivity" />
+        <activity android:name=".BelajarBuahActivity" />
+        <activity android:name=".Angka4Activity" />
+        <activity android:name=".Angka3Activity" />
+        <activity android:name=".Angka2Activity" />
+        <activity android:name=".Angka1Activity" />
+        <activity android:name=".AngkaActivity" />
+        <activity android:name=".SingaActivity" />
+        <activity android:name=".MonyetActivity" />
+        <activity android:name=".IkanActivity" />
+        <activity android:name=".LebahActivity" />
+        <activity android:name=".HewanActivity" />
+        <activity android:name=".StrawberryActivity" />
+        <activity android:name=".ManggisActivity" />
+        <activity android:name=".JambuAirActivity" />
+        <activity android:name=".CeriActivity" />
+        <activity android:name=".DurianApp" />
+        <activity android:name=".ApelActivity" />
+        <activity android:name=".AlpukatActivity" />
+        <activity android:name=".BuahActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+</manifest>

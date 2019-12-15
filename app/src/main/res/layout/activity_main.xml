@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent" android:layout_width="match_parent">
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/belajar_buah"
+        style="@style/CategoryStyle"
+        android:background="@color/category_belajar_buah"
+        android:text="Belajar Nama Buah"/>
+
+    <Button
+        android:id="@+id/belajar_hewan"
+        style="@style/CategoryStyle"
+        android:background="@color/category_belajar_hewan"
+        android:text="Belajar Nama Hewan"/>
+
+    <Button
+        android:id="@+id/belajar_angka"
+        style="@style/CategoryStyle"
+        android:background="@color/category_belajar_angka"
+        android:text="Belajar Angka"/>
+
+    <Button
+        android:id="@+id/tebak_buah"
+        style="@style/CategoryStyle"
+        android:background="@color/category_buah"
+        android:text="Tebak Buah"/>
+
+    <Button
+        android:id="@+id/tebak_hewan"
+        style="@style/CategoryStyle"
+        android:background="@color/category_hewan"
+        android:text="Tebak Hewan" />
+
+    <Button
+        android:id="@+id/tebak_angka"
+        style="@style/CategoryStyle"
+        android:background="@color/category_angka"
+        android:text="Tebak Angka"/>
+
+    <Button
+        android:id="@+id/bagikan_app"
+        style="@style/CategoryStyle"
+        android:background="@color/category_bagikan"
+        android:text="Bagikan Aplikasi" />
+
+</LinearLayout>
+</ScrollView>
